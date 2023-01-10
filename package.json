@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "backend": "^0.0.0",
+    "node": "^18.0.0",
+    "node-sass": "^8.0.0",
+    "sass": "^1.57.1"
+  },
+  "scripts": {
+    "start": "npm run start:frontend",
+    "start:frontend": "npm run -w @frontend start",
+    "build:frontend": "npm run build @frontend",
+    "start:server": "npm run -w @backend start"
+  }
+}
