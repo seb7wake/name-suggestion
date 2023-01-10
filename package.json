@@ -7,7 +7,7 @@
   },
   "scripts": {
     "start": "npm run start:frontend",
-    "start:frontend": "cd fontend && npm run start",
+    "start:frontend": "cd frontend && npm run start",
     "start:server": "npm run -w @backend start"
   }
 }
